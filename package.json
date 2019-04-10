@@ -11,7 +11,8 @@
     "react-scripts": "2.1.8"
   },
   "scripts": {
-    "start": "webpack --watch --mode development",
+    "start": "yarn && docker-compose up",
+    "start:watch": "webpack --watch --mode development",
     "build": "webpack --mode production",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
